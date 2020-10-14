@@ -1,0 +1,138 @@
+
+body{
+    background:grey;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+   
+}
+p{
+    color:red;
+}
+.menu ul{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(18, 19, 16);
+    padding: 10px 30px;
+   
+}
+.menu li:hover{
+    color: hotpink;
+    text-transform: uppercase;
+   
+}
+.menu li{
+    text-decoration: none;
+    list-style-type:none;
+    padding-left: 40px;
+
+}
+.submenu{
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    padding-left: -100px;
+
+    
+}
+ol .submenu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    
+}
+ul li:hover .submenu{
+    display:inline;
+
+}
+q{
+    color: yellow;
+}
+.box{
+    display: flex;
+    justify-content:space-around;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.box .p1{
+text-align: center;
+ background-color:darkgrey;
+ height: 400px;
+ padding: 68px ;
+ width: 50%;
+ margin-right: 8px;
+}
+.box .p2{
+text-align: center;
+ background-color:rosybrown;
+ height: 400px;
+ padding: 68px ;
+ width: 50%;
+ margin-right: 8px;
+ 
+}
+
+.princ{
+    height: 400px;
+    background-color: rgb(115, 226, 158);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.aside{
+    display:flex;
+    justify-content:space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.art{
+  flex-grow: 1;
+   height: 400px; 
+   margin-left: 0px;
+   background-color:  rgb(0, 140, 255);
+}
+
+.art2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-left: 10px;
+    width: 250px;
+    
+}
+.subar1{
+  height: 200px;
+  background-color:  #ff00f2;
+
+}
+ .subar2{
+   height: 180px;
+   background-color:  #e5ff00;   
+} 
+.princ h2{
+    text-align: center;
+    padding: 170px ;
+}
+.art h2{
+        text-align: center;
+    padding: 170px ;
+}
+.subar1 h3{
+        text-align: center;
+    padding: 70px ;
+}
+.subar2 h3{
+        text-align: center;
+    padding: 68px ;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin: 10px;
+}
