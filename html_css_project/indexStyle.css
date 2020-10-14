@@ -4,60 +4,56 @@ body{
     color: white;
     padding: 0px;
     margin: 0px;
-    width: 100%;
    
 }
-p{
-    color:red;
+.menu{
+  background-color: burlywood;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
 }
+.menu .title{
+    font-size:30px;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+
 .menu ul{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content:center;
     background-color: rgb(18, 19, 16);
-    padding: 10px 30px;
+    margin-bottom: 0px;
+    padding: 30px 30px;
    
 }
 .menu li:hover{
-    color: hotpink;
+    color: rgb(57, 161, 15);
     text-transform: uppercase;
    
 }
 .menu li{
-    text-decoration: none;
-    list-style-type:none;
+
     padding-left: 40px;
+    margin-left: 80px;
+    list-style-type:none;
 
 }
-.submenu{
-    padding: 0px;
-    margin: 0px;
-    display: none;
-    padding-left: -100px;
-
-    
-}
-ol .submenu{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 0px;
-    
-}
-ul li:hover .submenu{
-    display:inline;
-
-}
-q{
-    color: yellow;
-}
+.menu ul li a{
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+ }  
 .box{
     display: flex;
     justify-content:space-around;
     margin-right: 10px;
+    margin-top: 150px;
     margin-left: 10px;
 }
-.box .p1{
+.box .article1{
 text-align: center;
  background-color:darkgrey;
  height: 400px;
@@ -65,7 +61,7 @@ text-align: center;
  width: 50%;
  margin-right: 8px;
 }
-.box .p2{
+.box .article2{
 text-align: center;
  background-color:rosybrown;
  height: 400px;
@@ -104,12 +100,12 @@ text-align: center;
     width: 250px;
     
 }
-.subar1{
+.subart1{
   height: 200px;
   background-color:  #ff00f2;
 
 }
- .subar2{
+ .subart2{
    height: 180px;
    background-color:  #e5ff00;   
 } 
@@ -121,11 +117,11 @@ text-align: center;
         text-align: center;
     padding: 170px ;
 }
-.subar1 h3{
+.subart1 h3{
         text-align: center;
     padding: 70px ;
 }
-.subar2 h3{
+.subart2 h3{
         text-align: center;
     padding: 68px ;
 }
@@ -134,5 +130,5 @@ text-align: center;
     display: flex;
     justify-content: space-around;
     background-color: black;
-    margin: 10px;
+    margin-top: 10px;
 }
