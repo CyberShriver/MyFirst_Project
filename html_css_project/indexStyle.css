@@ -50,7 +50,7 @@ body{
     display: flex;
     justify-content:space-around;
     margin-right: 10px;
-    margin-top: 150px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 .box .article1{
@@ -73,10 +73,14 @@ text-align: center;
 
 .princ{
     height: 400px;
-    background-color: rgb(115, 226, 158);
-    margin-right: 10px;
-    margin-left: 10px;
+    /* background-color: rgb(115, 226, 158); */
+    margin-top: 160px;
+    background-image: url("background.jpg");
+    background-size:cover;
+    opacity: 0.7;
+    
 }
+
 .aside{
     display:flex;
     justify-content:space-around;
