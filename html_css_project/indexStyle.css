@@ -77,8 +77,8 @@ text-align: center;
     margin-top: 160px;
     background-image: url("background.jpg");
     background-size:cover;
-    opacity: 0.7;
-    
+    opacity: 0.9;
+    color: white;
 }
 
 .aside{
